@@ -16,6 +16,13 @@
 
     <name>${project.artifactId}</name>
     <description>Common Docker utilities, and new cp-base image</description>
+    
+    <repositories>
+        <repository>
+            <id>confluent</id>
+            <url>http://packages.confluent.io/maven/</url>
+        </repository>
+    </repositories>
 
     <modules>
         <module>utility-belt</module>
